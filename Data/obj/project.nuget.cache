@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CEOIagfr2lKSz7YwGYDsNL58ETfcpsWvgRBL+R9mBt+10s+hLo1osXNY+oFRNxwFrZqoAT0qJ83pzL4yUgcDFQ==",
+  "dgSpecHash": "tz0on61AZg5voySsxUjUPXOzsIud3UNAxip56qiOXS/HyqFt7V1FukVuBmprBg17So0waJSatywjuKtNIA0LQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\source\\repos\\back-teste\\Data\\Data.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\Desktop\\back\\Data\\Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.2\\microsoft.entityframeworkcore.7.0.2.nupkg.sha512",

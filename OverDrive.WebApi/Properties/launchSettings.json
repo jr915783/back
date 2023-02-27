@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "OverDrive.WebApi": {
+    "Inlog.WebApi": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

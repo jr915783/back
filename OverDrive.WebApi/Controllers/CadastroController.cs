@@ -3,7 +3,7 @@ using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Repositories.Interface;
 
-namespace OverDrive.WebApi.Controllers
+namespace Inlog.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

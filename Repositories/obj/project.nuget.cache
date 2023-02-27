@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ToVgzeiAe5GyLINEBlDucelh0HK8Hf8Jn0ofRreQwbTGT9DAh19olbmAfTP41oadXnJmul5/8Bou0SKCZHRXbg==",
+  "dgSpecHash": "gakwzhTCKJlfnGoJbJurk3/Weo/GKzDkHwJ01qMw/YhQfMdEagNdNgO/kwiMlEEgoBe9rFXIqMWwWwJh9apHGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\source\\repos\\back-teste\\Repositories\\Repositories.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\Desktop\\back\\Repositories\\Repositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.2\\microsoft.entityframeworkcore.7.0.2.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.2\\microsoft.entityframeworkcore.abstractions.7.0.2.nupkg.sha512",

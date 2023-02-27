@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\source\\repos\\back-teste\\Data\\Data.csproj": {}
+    "C:\\Users\\Dell\\Desktop\\back\\Data\\Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\source\\repos\\back-teste\\Data\\Data.csproj": {
+    "C:\\Users\\Dell\\Desktop\\back\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\back-teste\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\back\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\Dell\\source\\repos\\back-teste\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\back\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\source\\repos\\back-teste\\Data\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\back\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Dell\\source\\repos\\back-teste\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Dell\\source\\repos\\back-teste\\Domain\\Domain.csproj"
+              "C:\\Users\\Dell\\Desktop\\back\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Desktop\\back\\Domain\\Domain.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\Dell\\source\\repos\\back-teste\\Domain\\Domain.csproj": {
+    "C:\\Users\\Dell\\Desktop\\back\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\back-teste\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\back\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Dell\\source\\repos\\back-teste\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\back\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\source\\repos\\back-teste\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\back\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
