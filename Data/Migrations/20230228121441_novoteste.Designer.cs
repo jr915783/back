@@ -11,8 +11,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Data.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230225141135_primeiroTeste")]
-    partial class primeiroTeste
+    [Migration("20230228121441_novoteste")]
+    partial class novoteste
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -40,8 +40,8 @@ namespace Data.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("NumeroPassageiros")
-                        .HasColumnType("integer");
+                    b.Property<byte>("NumeroPassageiros")
+                        .HasColumnType("smallint");
 
                     b.Property<string>("Tipo")
                         .IsRequired()

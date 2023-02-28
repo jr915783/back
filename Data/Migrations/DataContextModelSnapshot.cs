@@ -37,8 +37,8 @@ namespace Data.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("NumeroPassageiros")
-                        .HasColumnType("integer");
+                    b.Property<byte>("NumeroPassageiros")
+                        .HasColumnType("smallint");
 
                     b.Property<string>("Tipo")
                         .IsRequired()

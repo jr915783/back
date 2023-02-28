@@ -6,7 +6,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Data.Migrations
 {
     /// <inheritdoc />
-    public partial class primeiroTeste : Migration
+    public partial class novoteste : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -19,7 +19,7 @@ namespace Data.Migrations
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     Chassi = table.Column<string>(type: "text", nullable: false),
                     Tipo = table.Column<string>(type: "text", nullable: false),
-                    NumeroPassageiros = table.Column<int>(type: "integer", nullable: false),
+                    NumeroPassageiros = table.Column<byte>(type: "smallint", nullable: false),
                     Cor = table.Column<string>(type: "text", nullable: false)
                 },
                 constraints: table =>
