@@ -21,7 +21,7 @@ namespace Data.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("Domain.Entities.EntityCadastrosVeiculo", b =>
+            modelBuilder.Entity("Domain.Entities.EntityCadastrosPessoa", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -29,24 +29,51 @@ namespace Data.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Chassi")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("Cor")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<byte>("NumeroPassageiros")
-                        .HasColumnType("smallint");
-
-                    b.Property<string>("Tipo")
+                    b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
 
-                    b.ToTable("CadastrosVeiculos", (string)null);
+                    b.ToTable("EntityCadastrosPessoa");
+                });
+
+            modelBuilder.Entity("Domain.Entities.EntityContato", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .HasColumnType("text");
+
+                    b.Property<int>("PessoaId")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Telefone")
+                        .HasColumnType("text");
+
+                    b.Property<string>("whatsApp")
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PessoaId");
+
+                    b.ToTable("EntityContato");
+                });
+
+            modelBuilder.Entity("Domain.Entities.EntityContato", b =>
+                {
+                    b.HasOne("Domain.Entities.EntityCadastrosPessoa", "Pessoa")
+                        .WithMany()
+                        .HasForeignKey("PessoaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Pessoa");
                 });
 #pragma warning restore 612, 618
         }

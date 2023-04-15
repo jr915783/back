@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "Inlog.WebApi": {
+    "Bravi.WebApi": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

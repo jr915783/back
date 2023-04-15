@@ -14,6 +14,7 @@ builder.Services.AddDbContext<DataContext>(option =>
 });
 
 builder.Services.AddScoped<ICadastro, CadastroRepository>();
+builder.Services.AddScoped<ICadastroContato, CadastroContatoRepository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

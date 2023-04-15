@@ -5965,9 +5965,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\back\\OverDrive.WebApi\\Inlog.WebApi.csproj",
-      "projectName": "Inlog.WebApi",
-      "projectPath": "C:\\Users\\Dell\\Desktop\\back\\OverDrive.WebApi\\Inlog.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\back\\OverDrive.WebApi\\Bravi.WebApi.csproj",
+      "projectName": "Bravi.WebApi",
+      "projectPath": "C:\\Users\\Dell\\Desktop\\back\\OverDrive.WebApi\\Bravi.WebApi.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Dell\\Desktop\\back\\OverDrive.WebApi\\obj\\",
       "projectStyle": "PackageReference",
